@@ -5,3 +5,10 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+Person.destroy_all
+Person.create(name: 'Karl', favorite_color: 'puce', age: 36)
+Person.create(name: 'Elmo', favorite_color: 'red', age: 3)
+
+
+
